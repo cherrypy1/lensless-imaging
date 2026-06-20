@@ -1,0 +1,6 @@
+defaults:
+  - baseline
+  - override model: admm100
+  - _self_
+writer:
+  run_name: "admm100"

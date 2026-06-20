@@ -1,0 +1,8 @@
+defaults:
+  - baseline
+  - override model: unrolled_admm20
+  - _self_
+optimizer:
+  lr: 1e-2
+writer:
+  run_name: "unrolled_admm20"

@@ -1,0 +1,15 @@
+defaults:
+  - model: leadmm5_pre_post
+  - metrics: image
+  - datasets: custom_dir # we do not want to run inference on training data
+  - dataloader: lensless
+  - transforms: none
+  - _self_
+inferencer:
+  device_tensors: ["measurement", "psf"] # which tensors should be on device (ex. GPU)
+  save_path: "data/saved/reconstructions"
+  seed: 1
+  from_pretrained: "checkpoints/leadmm5_pre_post.pth" # path to the pretrained model
+  speed_batches: 20
+  count_time: False
+  count: null

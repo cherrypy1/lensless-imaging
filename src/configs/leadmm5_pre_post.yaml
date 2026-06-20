@@ -1,0 +1,8 @@
+defaults:
+  - baseline
+  - override model: leadmm5_pre_post
+  - _self_
+optimizer:
+  admm_lr: 1e-2
+writer:
+  run_name: "leadmm5_pre_post"

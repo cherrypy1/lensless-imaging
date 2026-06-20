@@ -1,0 +1,7 @@
+test:
+  _target_: src.datasets.DigiCamDataset
+  split: "test"
+  mask_dir: "data/masks"
+  data_dir: "data/digicam"
+  limit: null
+  instance_transforms: ${transforms.instance_transforms.inference}
