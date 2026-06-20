@@ -1,0 +1,19 @@
+torch>=2.0
+torchvision
+torchmetrics
+numpy
+tqdm
+matplotlib
+pandas
+pillow
+opencv-python
+scipy
+datasets
+lpips
+comet_ml
+hydra-core
+huggingface_hub
+gdown
+waveprop @ git+https://github.com/ebezzam/waveprop.git
+slm_controller @ git+https://github.com/ebezzam/slm-controller.git
+perlin_numpy @ git+https://github.com/pvigier/perlin-numpy.git@5e26837db14042e51166eb6cad4c0df2c1907016
